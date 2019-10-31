@@ -164,13 +164,13 @@ p {
     margin: 0 auto;
 }
 
-div,
+/*div,
 section,
 nav,
 li,
 img {
     border: 1px solid black;
-}
+}*/
 
 /* Navbar - Hero Area*/
 .head-container {
@@ -195,6 +195,7 @@ img {
 
 .head-container a {
     color: black;
+    text-decoration: none;
 }
 
 .top-content {
@@ -313,3 +314,45 @@ footer nav a {
 }
 
 /* ABOUT PAGE */
+
+/* About */
+.about {
+    margin-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 1.5px dotted black'
+
+}
+
+.card-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 48%;
+    margin-top: 25px;
+    border-bottom: 1.5px dotted black;
+    padding-bottom: 25px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    margin-top: 20px;
+}
+
+.card button {
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    background: white;
+    border: 1.5px solid black;
+    border-radius: 10px 10px;
+}
+
+.work {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
